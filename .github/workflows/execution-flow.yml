@@ -82,5 +82,5 @@ jobs:
     steps:
       - name: Output Information
         run: |
-          echo "Something gey wrong!!!"
-          echo ${{github}}
+          echo "Something get wrong!!!"
+          echo "${{github}}"
